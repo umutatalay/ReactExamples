@@ -17,4 +17,8 @@ Bu işlem this.prop yazmakla uğraşmayı engeller.
     Bu tarz hatalar bir default props tanımlanarak önlenebilir. Konu ile ilgili örnek aşağıdaki gibidir.
 
     Navbar.defaultProps = {
-    title:"No Data"
+    title:"No Data"}
+
+    2.2 Prop Drilling
+
+

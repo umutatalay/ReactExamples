@@ -10,7 +10,9 @@ export default class UserCard extends Component {
     }
     //arrow func
     onClickEvent = (number,e) =>{ // bu kısımda eşittir ve => olmasının sebebi bind etmek istemek.
-      alert(number)
+     this.setState({
+         isVisible :!this.state.isVisible
+     })
     }
     // constructor(props){
     //     super(props);
@@ -49,7 +51,7 @@ UserCard.defaultProps={
     Name:"isim girilmedi.",
     About:"No Data",
     City:"Şehir Girilmedi.",
-    Gender:"Cinsiyet girilmedi."
+    Gender:"Cinsiyet girilmedi. a"
 }
 
 UserCard.propTypes={
