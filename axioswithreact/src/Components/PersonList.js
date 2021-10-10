@@ -8,7 +8,7 @@ export default class PersonList extends Component {
     }
 
     componentDidMount(){
-        axios.get('http://jsonplaceholder.typicode.com/users')
+        axios.get('https://localhost:44362/api/product/hepsi')
         .then(res=> {
             console.log(res+"Bayrak");
             this.setState({persons :res.data});
@@ -18,7 +18,7 @@ export default class PersonList extends Component {
         return (
             <div>
                 <ul>
-                    {this.state.persons.map(person=> <li key={person.id}>{person.name}</li>)}
+                    {this.state.persons.map(person=><li key={person.productId}>{person.name}</li>)}
                 </ul>
             </div>
         )

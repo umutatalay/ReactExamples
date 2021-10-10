@@ -50,7 +50,7 @@ export class App extends Component {
         <User UserName="Player 2" UserCity="Ev" UserAbout="Computer" /> */}
         <hr></hr>
         <UserCard Name="Umut Atalay" About="Bilgisayar Mühendisi" City="İstanbul" Gender="Erkek"></UserCard>
-        <UserCard Name="Computer" About="Player 2 "  Gender="None"></UserCard>
+        <UserCard Name="Computer" About="Player 2 "  ></UserCard>
         
         <hr></hr>
         <Users users = {this.state.users} />

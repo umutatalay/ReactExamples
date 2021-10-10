@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
+import * as React from 'react'
 import PropTypes from 'prop-types'
 
 
 
 
-export default class UserCard extends Component {
+export default class UserCard extends React.Component {
     state={
         isVisible:false
     }
